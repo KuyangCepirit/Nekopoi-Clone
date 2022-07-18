@@ -39,7 +39,9 @@ header .random {
 
 /* -------------------------------------------MAIN--------------------------------------------------------------------- */
 main {
-    padding: 60px;
+    margin-top: 5%;
+    margin-left: 10%;
+
 }
 
 main .brand-logo img {
@@ -75,32 +77,80 @@ main .banner .anime-list {
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 5px;
     border-top-right-radius: 5px ;
-    
+}
+
+main .content-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
 }
 
 main .content {
     background-color: #413F42;
-    padding: 5px 15px;
     border-radius: 5px;
-    margin-top: 20px;
     box-shadow: 0px 0px 5px black;
+    width: 70%;
+    overflow: hidden;
 }
 
+main .new-hentai {
+    background-color: #333;
+    width: 100%;
+    padding: 10px;
+}
 
-main .content .thumbnail {
+main .content .thumbnail-container {
+    background-color: #F25287;
+    padding: 20px;
     display: flex;
-    flex-direction: column;
+    gap: 20px;
+    flex-wrap: wrap;
     justify-content: center;
 }
-main .content .thumbnail-container {
-    display: flex;
-    gap: 10px;
 
+main .content .thumbnail {
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+main .content .thumbnail p {
+    margin-top: -3px;
+    background-color: #333;
+    width: 100%;
+    text-align: center;
 }
 
 main .content .thumbnail img {
     width: 140px;
     height: 180px;
-    border-radius: 5px;
 }
 
+article {
+    margin-top: 1%;
+    margin-left: 10%;
+}
+
+article .article-container .content {   
+    background-color: #F25287;
+    width: 70%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 3px;
+
+}
+
+article .article-container .article-content {
+    background-color: #F1EEE9;
+    width: 70%;
+}
+
+article .article-container .article-content .video img {
+    width: 140px;
+    height: 80px;
+    border-radius: 5px;
+    margin: 15px 15px;
+}
+
+article .article-container .article-content .video h5 {
+    color: #333;
+}
